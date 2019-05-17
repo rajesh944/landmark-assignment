@@ -41,7 +41,7 @@ export default {
         display: flex;
         justify-content: center;
         margin-left: 2rem;
-        tr {
+        /* tr {
             border: 0.03rem solid black;
         }
         td,th {
@@ -55,7 +55,7 @@ export default {
                 width:100%;
                 font-size: 1.6rem;
           }
-        }
+        } */
         table {
     width: 100%;
     border-collapse: collapse;
@@ -77,7 +77,7 @@ th {
     text-align: left;
 }
 
-@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+@media only screen and (max-width: 760px), (min-device-width: 320px) and (max-device-width: 1025px) {
     table, thead, tbody, th, td, tr {
         display: block;
     }

@@ -1,6 +1,6 @@
 const path = require('path')
 const webpack = require('webpack')
-const NodemonPlugin = require('nodemon-webpack-plugin')
+//const NodemonPlugin = require('nodemon-webpack-plugin')
 module.exports = {
   entry: './src/main.js',
   output: {
@@ -83,7 +83,6 @@ module.exports = {
   performance: {
     hints: false
   },
-  watch: true,
   devtool: '#eval-source-map'
 }
 
@@ -104,7 +103,6 @@ if (process.env.NODE_ENV === 'production') {
     }),
     new webpack.LoaderOptionsPlugin({
       minimize: true
-    }),
-    new NodemonPlugin()
+    })
   ])
 }

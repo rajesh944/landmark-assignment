@@ -24,7 +24,6 @@ export default {
     actionFlagChanged(flag) {
       this.formEnabled = flag;
       if(!flag) {
-        debugger
         let dataStored = localStorage.getObj('formDataLandmark');
         if(dataStored === null) {
           return 
