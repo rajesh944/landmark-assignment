@@ -157,6 +157,7 @@ export default {
             font-size: 1.2rem;
             border-radius: 5%;
             cursor: pointer;
+            border: 0.05rem solid black;
             @media only screen and (max-width: 1024px) {
                 padding: 28px 56px;
                 width:30%;

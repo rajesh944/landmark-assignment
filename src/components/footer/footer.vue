@@ -38,6 +38,7 @@ export default {
         font-size: 1.2rem;
         cursor: pointer;
         background-color: white;
+        border: 0.05rem solid black;
         @media only screen and (max-width: 1024px) {
             font-size: 1.6rem;  
             width:100%;  
