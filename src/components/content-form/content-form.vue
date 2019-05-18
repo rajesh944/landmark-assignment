@@ -135,12 +135,12 @@ export default {
                 }
             }
             input {
-                min-width: 18rem; 
+                min-width: 22rem; 
                 padding: 0.5rem;
                 border: 0.05rem solid black;
                 @media only screen and (max-width: 1024px) {
                       width: 94%;
-                      padding: 2rem;
+                      padding: 1rem;
                       font-size: 1.6rem;
                 }
             }
@@ -153,7 +153,7 @@ export default {
             margin-top: 2rem;
             background-color: white;
             color: black;
-            padding: 14px 28px;
+            padding: 1rem 3rem;
             font-size: 1.2rem;
             border-radius: 5%;
             cursor: pointer;

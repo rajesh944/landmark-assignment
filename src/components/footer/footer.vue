@@ -32,9 +32,8 @@ export default {
     justify-content: center;
     padding: 2rem;
     height: 5rem;
-    border: 0.05rem solid lavenderblush;
     button {
-        padding:1rem 3rem;
+        padding:1rem 4rem;
         border-radius: 4%;
         font-size: 1.2rem;
         cursor: pointer;

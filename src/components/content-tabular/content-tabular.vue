@@ -41,16 +41,8 @@ export default {
         display: flex;
         justify-content: center;
         margin-left: 2rem;
-        /* tr {
-            border: 0.03rem solid black;
-        }
-        td,th {
-            border: 0.03rem solid black;
-            padding: 0.2rem;
-            font-size: 1.2rem;
-            white-space:pre-wrap; 
-            word-wrap:break-word
-        }table {
+        margin-top: 1rem;
+        /*table {
             @media only screen and (max-width: 1024px) {
                 width:100%;
                 font-size: 1.6rem;
@@ -61,7 +53,7 @@ export default {
     border-collapse: collapse;
 }
 tr:nth-of-type(odd) {
-    background: #eee;
+    background: aliceblue;
 }
 
 th {

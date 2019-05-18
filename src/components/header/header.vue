@@ -27,7 +27,6 @@ export default {
     justify-content: center;
     padding-top: 2rem;
     height: 5rem;
-    border: 0.05rem solid lavenderblush;
     .landmark-header_img-wrapper {
       .landmark-header_img-wrapper_img {
         height: 4rem;
