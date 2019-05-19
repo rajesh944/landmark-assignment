@@ -11,7 +11,6 @@
 
 <script>
 export default {
-  name: 'header-comp',
   data() {
     return {
       companyName: 'Landmark Group'
